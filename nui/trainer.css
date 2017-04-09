@@ -31,7 +31,7 @@ p {
     font-size: 25px;
     height: 75px;
     background: rgba(255, 64, 64, 0.8);
-    text-shadow: 0 0 3px #e04040;
+    text-shadow: 0 0 3px #00FFFF;
 }
 
 .traineroption.trainertitle:after {
