@@ -48,11 +48,13 @@
             <div id="vehiclesspawnmenu" data-parent="vehiclesmenu">
                 <p class="traineroption" data-action="vehspawn despawn" data-state="ON">Automatic Despawn</p>
                 <p class="traineroption" data-action="vehspawn input">Spawn Vehicle by Name</p>
-                <p class="traineroption" data-sub="vehiclesboats">- Boat</p>
-                <p class="traineroption" data-sub="vehiclescommercial">- Commercial</p>
-                <p class="traineroption" data-sub="vehiclescompact">- Compact</p>
-                <p class="traineroption" data-sub="vehiclescoupe">- Coupe</p>
-                <p class="traineroption" data-sub="vehiclescycle">- Cycle</p>
+                <p class="traineroption" data-sub="vehiclesboats">- Boats</p>
+                <p class="traineroption" data-sub="vehiclescommercial">- Commercials</p>
+                <p class="traineroption" data-sub="vehiclescompact">- Compacts</p>
+                <p class="traineroption" data-sub="vehiclescoupe">- Coupes</p>
+                <p class="traineroption" data-sub="vehiclescycle">- Cycles</p>
+                <p class="traineroption" data-sub="vehiclesemergency">- Emergency</p>
+                <p class="traineroption" data-sub="vehiclesheli">- Helicopters</p>
                 <p class="traineroption" data-action="vehspawn ADDER">Adder</p>
                 <p class="traineroption" data-action="vehspawn FAGGIO">Faggio</p>
                 <p class="traineroption" data-action="vehspawn FUTO">Futo</p>
@@ -195,6 +197,79 @@
                 <p class="traineroption" data-action="vehspawn TRIBIKE">TriBike 1</p>
                 <p class="traineroption" data-action="vehspawn TRIBIKE2">TriBike 2</p>
                 <p class="traineroption" data-action="vehspawn TRIBIKE3">TriBike 3</p>
+            </div>
+            
+            <div id="vehiclesemergency" data-parent="vehiclesspawnmenu">
+                <p class="traineroption" data-action="vehspawn AMBULANCE">Ambulance</p>
+                <p class="traineroption" data-sub="vehfbi">- FBI</p>
+                <p class="traineroption" data-action="vehspawn FIRETRUCK">FireTruck</p>
+                <p class="traineroption" data-action="vehspawn PBUS">PBus</p>
+                <p class="traineroption" data-sub="vehpolice">- Police</p>
+                <p class="traineroption" data-sub="vehpoliceold">- PoliceOld</p>
+                <p class="traineroption" data-action="vehspawn POLICET">PoliceT</p>
+                <p class="traineroption" data-action="vehspawn POLICEB">PoliceB</p>
+                <p class="traineroption" data-action="vehspawn POLMAV">Polmav</p>
+                <p class="traineroption" data-action="vehspawn PRANGER">Pranger</p>
+                <p class="traineroption" data-action="vehspawn PREDATOR">Predator</p>
+                <p class="traineroption" data-action="vehspawn RIOT">Riot</p>
+                <p class="traineroption" data-sub="vehsheriff">- Sheriff</p>
+            </div>
+            <div id="vehfbi" data-parent="vehiclesemergency">
+                <p class="traineroption" data-action="vehspawn FBI">FBI 1</p>
+                <p class="traineroption" data-action="vehspawn FBI2">FBI 2</p>
+            </div>
+            <div id="vehpolice" data-parent="vehiclesemergency">
+                <p class="traineroption" data-action="vehspawn POLICE">Police 1</p>
+                <p class="traineroption" data-action="vehspawn POLICE2">Police 2</p>
+                <p class="traineroption" data-action="vehspawn POLICE3">Police 3</p>
+                <p class="traineroption" data-action="vehspawn POLICE4">Police 4</p>
+            </div>
+            <div id="vehpoliceold" data-parent="vehiclesemergency">
+                <p class="traineroption" data-action="vehspawn POLICEOLD1">PoliceOld 1</p>
+                <p class="traineroption" data-action="vehspawn POLICEOLD2">PoliceOld 2</p>
+            </div>
+            <div id="vehsheriff" data-parent="vehiclesemergency">
+                <p class="traineroption" data-action="vehspawn SHERIFF">Sheriff 1</p>
+                <p class="traineroption" data-action="vehspawn SHERIFF2">Sheriff 2</p>
+            </div>
+            
+            <div id="vehiclesheli" data-parent="vehiclesspawnmenu">
+                <p class="traineroption" data-sub="vehbuzzard">- Buzzard</p>
+                <p class="traineroption" data-sub="vehcargobob">- Cargobob</p>
+                <p class="traineroption" data-sub="vehfrogger">- Frogger</p>
+                <p class="traineroption" data-sub="vehsupervolito">- Supervolito</p>
+                <p class="traineroption" data-sub="vehswift">- Swift</p>
+                <p class="traineroption" data-sub="vehvalkyrie">- Valkyrie</p>
+                <p class="traineroption" data-action="vehspawn MAVERICK">Maverick</p>
+                <p class="traineroption" data-action="vehspawn SAVAGE">Savage</p>
+                <p class="traineroption" data-action="vehspawn SKYLIFT">Skylift</p>
+                <p class="traineroption" data-action="vehspawn VOLATUS">Volatus</p>
+            </div>
+            <div id="vehbuzzard" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn BUZZARD">Buzzard 1</p>
+                <p class="traineroption" data-action="vehspawn BUZZARD2">Buzzard 2</p>
+            </div>
+            <div id="vehcargobob" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn CARGOBOB">Cargobob 1</p>
+                <p class="traineroption" data-action="vehspawn CARGOBOB2">Cargobob 2</p>
+                <p class="traineroption" data-action="vehspawn CARGOBOB3">Cargobob 3</p>
+                <p class="traineroption" data-action="vehspawn CARGOBOB4">Cargobob 4</p>
+            </div>
+            <div id="vehfrogger" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn FROGGER">Frogger 1</p>
+                <p class="traineroption" data-action="vehspawn FROGGER2">Frogger 2</p>
+            </div>
+            <div id="vehsupervolito" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn SUPERVOLITO">Supervolito 1</p>
+                <p class="traineroption" data-action="vehspawn SUPERVOLITO2">Supervolito 2</p>
+            </div>
+            <div id="vehswift" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn SWIFT">Swift 1</p>
+                <p class="traineroption" data-action="vehspawn SWIFT2">Swift 2</p>
+            </div>
+            <div id="vehvalkyrie" data-parent="vehiclesheli">
+                <p class="traineroption" data-action="vehspawn VALKYRIE">Valkyrie 1</p>
+                <p class="traineroption" data-action="vehspawn VALKYRIE2">Valkyrie 2</p>
             </div>
             
             <div id="vehiclescolormenu" data-parent="vehiclesmenu">
